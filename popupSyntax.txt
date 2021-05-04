@@ -1,0 +1,1 @@
+<a href="image.png" target="popup" onclick="window.open('image.png','popup','width=200,height=200'); return false;">text</a>
