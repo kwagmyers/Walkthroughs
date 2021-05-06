@@ -1,0 +1,686 @@
+* Detected CPU: AuthenticAMD AMD FX(tm)-8350 Eight-Core Processor           , F111/M2/S0, 3991.00 mhz, 73-clk 'rdtsc'
+* CPU features: RDTSC, MMX, SSE, SSE2, SSE3, MONITOR/MWAIT, SSSE3, SSE4.1, SSE4.2, SSE4a, AVX
+* CPU threads: 8
+
+Initializing File System...
+using fs-ltx fsgame.ltx
+FS: 54550 files cached 37 archives, 12701Kb memory used.
+Init FileSystem 1.704811 sec
+'xrCore' build 8063, Mar  5 2021
+
+Initializing Engine  Mar  5 2021...
+Starting INPUT device...
+Loading DLL: xrRender_R2.dll
+Loading DLL: xrRender_R3.dll
+refCount:m_pAdapter 1
+command line -nes_texture_storing -smap4096
+Executing config-script "user.ltx"...
+[g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\bin_x64_lfo\user\user.ltx] successfully loaded.
+Loading DLL: xrRender_R3.dll
+Loading DLL: xrGame.dll
+! Unable to find Software\GSC Game World\STALKER-STCS\ in registry
+! Player name registry key (InstallUserName) not found !
+* [win32]: free[-160840 K], reserved[54876 K], committed[105900 K]
+* [ D3D ]: textures[0 K]
+* [x-ray]: crt heap[19390 K], process heap[19390 K], game lua[??? K], render[0 K]
+* [x-ray]: economy: strings[4996 K], smem[0 K]
+SOUND: OpenAL: enumerate devices...
+SOUND: OpenAL: EnumerationExtension Present
+devices Generic Software
+SOUND: OpenAL: system  default SndDevice name is Generic Software
+SOUND: OpenAL: All available devices:
+1. Generic Software, Spec Version 1.1 (default) eax[2] efx[no] xram[no]
+Executing config-script "user.ltx"...
+Executing config-script "g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\gamedata\configs\renderer\rspec_low.ltx"...
+~ Invalid syntax in call to 'r__supersample'
+~ Valid arguments: integer value in range [1,8]
+! Unknown command:  ;-------------
+[g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\gamedata\configs\renderer\rspec_low.ltx] successfully loaded.
+~ Invalid syntax in call to 'psp_cam_offset'
+~ Valid arguments: vector3 in range [-1.000000e+03,-1.000000e+03,-1.000000e+03]-[1.000000e+03,1.000000e+03,1.000000e+03]
+~ Invalid syntax in call to 'r2_aa_break'
+~ Valid arguments: vector3 in range [0.000000e+00,0.000000e+00,0.000000e+00]-[1.000000e+00,1.000000e+00,1.000000e+00]
+~ Invalid syntax in call to 'r2_aa_weight'
+~ Valid arguments: vector3 in range [0.000000e+00,0.000000e+00,0.000000e+00]-[1.000000e+00,1.000000e+00,1.000000e+00]
+[g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\bin_x64_lfo\user\user.ltx] successfully loaded.
+SOUND: Selected device is Generic Software
+* sound: EAX 2.0 extension: present
+* sound: EAX 2.0 deferred: present
+* sound : cache: 49152 kb, 3642 lines, 13820 bpl
+Starting RENDER device...
+* GPU [vendor:1002]-[device:68BF]: AMD Radeon HD 6700 Series  
+* CREATE: DeviceREF: 4
+*     Texture memory: 1002 M
+* GPU shading: vs(0/4.0/40), ps(0/4.0/40)
+* GPU vertex cache: unrecognized, 24
+* NVAPI is missing.
+* Starting rendering as 2-GPU.
+* DVB created: 1536K
+* DIB created: 512K
+...aul\gamedata\game_shaders_lfo\r3\effects_water - kopie.s:1: attempt to perform arithmetic on global 'effects_water' (a nil value)
+! Version conflict in shader 'models\model'
+! Version conflict in shader 'models\model_aref'
+! Version conflict in shader 'models\model_fur'
+! Version conflict in shader 'models\model_hm'
+! Version conflict in shader 'models\model_pn'
+! Version conflict in shader 'models\model_pn_hm'
+! Version conflict in shader 'models\models_lense_scope'
+! Version conflict in shader 'models\models_mutant'
+* HWDST/PCF supported and used
+- r__tf_aniso 1
+- r2_tf_mipbias 0.
+* loading script _G.script
+* loading script class_registrator.script
+* loading script ui_main_menu.script
+* loading script sim_faction.script
+* loading script smart_terrain.script
+* loading script se_respawn.script
+* loading script ce_switcher.script
+* loading script se_switcher.script
+* loading script se_level_changer.script
+* loading script se_actor.script
+* loading script se_stalker.script
+* loading script se_car.script
+* loading script se_zones.script
+* loading script se_item.script
+* loading script se_smart_cover.script
+* loading script se_artefact.script
+* loading script se_monster.script
+* loading script game_registrator.script
+Starting engine...
+! Missing ogg-comment, file:  g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\gamedata\sounds\lfo\shooting_target_hit_sound.ogg
+! Unable to find Software\GSC Game World\STALKER-STCS\ in registry
+! Player name registry key (InstallUserName) not found !
+! Unable to find Software\GSC Game World\STALKER-STCS\ in registry
+Loading DLL: xrGameSpy.dll
+! Missing ogg-comment, file:  g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\gamedata\sounds\lfo\mm_music\mm_music_complete.ogg
+* loading script xr_s.script
+* loading script ui_load_dialog.script
+* loading script god.script
+* loading script db.script
+* loading script actor_proxy.script
+* loading script task_manager.script
+* loading script object_collection.script
+* loading script utils.script
+* loading script task_objects.script
+* loading script xr_logic.script
+* loading script sim_board.script
+* loading script minigames_manager.script
+* loading script minigame_crowkiller.script
+* loading script minigame_shooting.script
+refCount:pBaseZB 1
+refCount:pBaseRT 1
+* DVB created: 1536K
+* DIB created: 512K
+- r__tf_aniso 1
+- r2_tf_mipbias 0.
+* GPU shading: vs(0/4.0/40), ps(0/4.0/40)
+* GPU vertex cache: unrecognized, 24
+* NVAPI is missing.
+* Starting rendering as 2-GPU.
+*** RESET [3594 ms]
+"g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\bin_x64_lfo\xrengine.exe" -nes_texture_storing -smap4096
+* phase time: 0 ms
+* phase cmem: 90553 K
+Prefetching objects...
+Loading objects...
+Loading models...
+CResourceManager::DeferredUpload -> START, size = 733
+TextureLoading -> thread 1 started!
+TextureLoading -> thread 3 started!
+TextureLoading -> thread 6 started!
+TextureLoading -> thread 7 started!
+TextureLoading -> thread 5 started!
+TextureLoading -> thread 2 started!
+TextureLoading -> thread 4 started!
+TextureLoading -> thread 8 started!
+TextureLoading -> thread 1 finished!
+TextureLoading -> thread 8 finished!
+! Can't find texture 'ghost_particles\shells\shell_762x39'
+! Can't find texture 'ghost_particles\shells\shell_9x18'
+TextureLoading -> thread 3 finished!
+TextureLoading -> thread 2 finished!
+TextureLoading -> thread 7 finished!
+TextureLoading -> thread 4 finished!
+TextureLoading -> thread 6 finished!
+TextureLoading -> thread 5 finished!
+texture loading time: 9650
+* [prefetch] time:    9654 ms
+* [prefetch] memory:  1572Kb
+! Unable to find Software\GSC Game World\STALKER-STCS\ in registry
+! Player name registry key (InstallUserName) not found !
+* phase time: 9794 ms
+* phase cmem: 89550 K
+SERVER: Starting...
+* loading script _G.script
+* loading script class_registrator.script
+* loading script ui_main_menu.script
+* loading script sim_faction.script
+* loading script smart_terrain.script
+* loading script se_respawn.script
+* loading script ce_switcher.script
+* loading script se_switcher.script
+* loading script se_level_changer.script
+* loading script se_actor.script
+* loading script se_stalker.script
+* loading script se_car.script
+* loading script se_zones.script
+* loading script se_item.script
+* loading script se_smart_cover.script
+* loading script se_artefact.script
+* loading script se_monster.script
+* loading script game_registrator.script
+* loading script smart_names.script
+* loading script task_manager.script
+* loading script treasure_manager.script
+* loading script utils.script
+* loading script db.script
+* loading script actor_proxy.script
+* loading script xr_logic.script
+* loading script sound_theme.script
+* loading script xr_sound.script
+* loading script dialog_manager.script
+* loading script xr_s.script
+* loading script xrs_dyn_music.script
+* loading script sim_board.script
+* loading script sr_light.script
+* loading script release_body_manager.script
+* phase time: 119 ms
+* phase cmem: 87057 K
+SERVER: Loading alife simulator...
+* phase time: 7 ms
+* phase cmem: 87055 K
+Loading "kwag_autosave.sav"...
+* loading script inventory_upgrades.script
+* Loading spawn registry...
+* loading script object_collection.script
+* loading script task_objects.script
+* loading script minigames_manager.script
+* loading script minigame_crowkiller.script
+* loading script minigame_shooting.script
+* loading script sim_combat.script
+* loading script cover_manager.script
+* loading script sim_squad_scripted.script
+* loading script sim_squad_generic.script
+* 14229 spawn points are successfully loaded
+* Loading objects...
+* loading script sound_manager.script
+* loading script xr_surge_hide.script
+* loading script xr_conditions.script
+* loading script game_relations.script
+* 24593 objects are successfully loaded
+* loading script gulag_general.script
+* loading script combat_restrictor.script
+* loading script xr_gulag.script
+* loading script modules.script
+* loading script xr_danger.script
+* loading script xr_abuse.script
+* loading script xr_walker.script
+* loading script xr_remark.script
+* loading script xr_cover.script
+* loading script xr_sleeper.script
+* loading script xr_kamp.script
+* loading script xr_evaluators_id.script
+PROPERTY_BASE 73
+* loading script xr_actions_id.script
+* loading script xr_camper.script
+* loading script xr_meet.script
+* loading script xr_combat.script
+* loading script xr_death.script
+* loading script xr_hit.script
+* loading script xr_wounded.script
+* loading script xr_combat_ignore.script
+* loading script xr_patrol.script
+* loading script xr_smartcover.script
+* loading script mob_remark.script
+* loading script mob_walker.script
+* loading script mob_combat.script
+* loading script mob_death.script
+* loading script mob_jump.script
+* loading script mob_home.script
+* loading script mob_trader.script
+* loading script ph_door.script
+* loading script ph_idle.script
+* loading script ph_on_hit.script
+* loading script ph_button.script
+* loading script ph_oscillate.script
+* loading script ph_minigun.script
+* loading script ph_target.script
+* loading script heli_move.script
+* loading script sr_no_weapon.script
+* loading script sr_teleport.script
+* loading script sr_idle.script
+* loading script sr_particle.script
+* loading script sr_timer.script
+* loading script sr_psy_antenna.script
+* loading script sr_cutscene.script
+* loading script sr_bloodsucker.script
+* loading script sr_monster.script
+* loading script sr_robbery.script
+* loading script sr_crowkiller.script
+* loading script sr_shooting.script
+* loading script sr_silence.script
+* loading script sr_crow_spawner.script
+* loading script sim_faction_brain_human.script
+* loading script sim_faction_brain_mutant.script
+* Game kwag_autosave is successfully loaded from file 'g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\bin_x64_lfo\user\savedgames\kwag_autosave.sav' (4.319s)
+* phase time: 4318 ms
+* phase cmem: 147747 K
+SERVER: Connecting...
+* phase time: 68 ms
+* phase cmem: 147923 K
+CLIENT: Connecting to localhost...
+# Player not found. New player created.
+* client : connection accepted - <>
+* phase time: 36 ms
+* phase cmem: 147956 K
+Opening stream...
+* phase time: 156 ms
+* phase cmem: 147956 K
+Loading CFORM...
+* phase time: 7039 ms
+* phase cmem: 147998 K
+Loading shaders...
+* phase time: 1866 ms
+* phase cmem: 150409 K
+Loading geometry...
+* [Loading VB] 65531 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65530 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65524 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65515 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65527 verts, 2047 Kb
+* [Loading VB] 65530 verts, 2047 Kb
+* [Loading VB] 65477 verts, 2046 Kb
+* [Loading VB] 65523 verts, 2047 Kb
+* [Loading VB] 23863 verts, 745 Kb
+* [Loading VB] 65528 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65528 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65515 verts, 2047 Kb
+* [Loading VB] 65521 verts, 2047 Kb
+* [Loading VB] 65526 verts, 2047 Kb
+* [Loading VB] 65523 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65517 verts, 2047 Kb
+* [Loading VB] 65515 verts, 2047 Kb
+* [Loading VB] 65526 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65526 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65527 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65524 verts, 2047 Kb
+* [Loading VB] 65518 verts, 2047 Kb
+* [Loading VB] 30102 verts, 940 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65533 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65534 verts, 2047 Kb
+* [Loading VB] 65532 verts, 2047 Kb
+* [Loading VB] 65535 verts, 2047 Kb
+* [Loading VB] 53470 verts, 1670 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 211326 indices, 412 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65534 verts, 767 Kb
+* [Loading VB] 65533 verts, 767 Kb
+* [Loading VB] 65534 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65534 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65534 verts, 767 Kb
+* [Loading VB] 65534 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65533 verts, 767 Kb
+* [Loading VB] 65533 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65534 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65532 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65532 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65535 verts, 767 Kb
+* [Loading VB] 65472 verts, 767 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 1048575 indices, 2047 Kb
+* [Loading IB] 1048572 indices, 2047 Kb
+* [Loading IB] 755109 indices, 1474 Kb
+* phase time: 8268 ms
+* phase cmem: 151792 K
+Loading spatial-DB...
+* phase time: 110 ms
+* phase cmem: 172126 K
+Loading details...
+* [DETAILS] VertexConsts(256), Batch(61)
+* [DETAILS] 25925 v(20), 14152 p
+* [DETAILS] Batch(61), VB(506K), IB(82K)
+* phase time: 173 ms
+* phase cmem: 172184 K
+Loading sectors & portals...
+* Loading HOM: g:\s.t.a.l.k.e.r. stuff\s.t.a.l.k.e.r. mods\lfo\stalker clear sky last fallout overhaul\gamedata\levels\escape\level.hom
+* phase time: 328 ms
+* phase cmem: 172564 K
+Loading AI objects...
+* phase time: 29 ms
+* phase cmem: 172564 K
+CLIENT: Spawning...
+* phase time: 19 ms
+* phase cmem: 172564 K
+Loading textures...
+CResourceManager::DeferredUpload -> START, size = 1870
+TextureLoading -> thread 1 started!
+TextureLoading -> thread 3 started!
+TextureLoading -> thread 2 started!
+TextureLoading -> thread 4 started!
+TextureLoading -> thread 5 started!
+TextureLoading -> thread 7 started!
+TextureLoading -> thread 8 started!
+TextureLoading -> thread 6 started!
+TextureLoading -> thread 9 started!
+TextureLoading -> thread 10 started!
+TextureLoading -> thread 11 started!
+TextureLoading -> thread 15 started!
+TextureLoading -> thread 15 finished!
+TextureLoading -> thread 13 started!
+TextureLoading -> thread 16 started!
+TextureLoading -> thread 14 started!
+TextureLoading -> thread 17 started!
+TextureLoading -> thread 18 started!
+TextureLoading -> thread 12 started!
+TextureLoading -> thread 19 started!
+TextureLoading -> thread 16 finished!
+TextureLoading -> thread 10 finished!
+TextureLoading -> thread 1 finished!
+TextureLoading -> thread 11 finished!
+TextureLoading -> thread 14 finished!
+ 
+xrEngine.exe caused an EXCEPTION_ACCESS_VIOLATION in module d3dx10_43.dll at 00000000E82645FA, D3DX10SaveTextureToMemory()+95278 byte(s)
+stack trace:
+0x00000000E82645FA d3dx10_43.dll, D3DX10SaveTextureToMemory + 95278 byte(s)
+0x00000000E8264BCE d3dx10_43.dll, D3DX10SaveTextureToMemory + 96770 byte(s)
+0x00000000E8265B94 d3dx10_43.dll, D3DX10SaveTextureToMemory + 100808 byte(s)
+0x00000000E825D097 d3dx10_43.dll, D3DX10SaveTextureToMemory + 65227 byte(s)
+0x00000000E825EAAC d3dx10_43.dll, D3DX10SaveTextureToMemory + 71904 byte(s)
+0x00000000E825D763 d3dx10_43.dll, D3DX10SaveTextureToMemory + 66967 byte(s)
+0x00000000E8248B6A d3dx10_43.dll, D3DX10ComputeNormalMap + 8194 byte(s)
+0x00000000E824EB64 d3dx10_43.dll, D3DX10SaveTextureToMemory + 6552 byte(s)
+0x00000000E821EBA7 d3dx10_43.dll, D3DX10GetImageInfoFromMemory + 1287 byte(s)
+0x00000000E821E15F d3dx10_43.dll, D3DX10CreateTextureFromMemory + 211 byte(s)
+0x00000000E19AF4A4 xrRender_R3.dll
+0x00000000E19AD2FA xrRender_R3.dll
+0x00000000E19F26B5 xrRender_R3.dll
+0x00000000E196125F xrRender_R3.dll
+0x00000000FAEEF4A0 ucrtbase.DLL, o__realloc_base + 96 byte(s)
+0x0000000077B2556D kernel32.dll, BaseThreadInitThunk + 13 byte(s)
+0x0000000077C8372D ntdll.dll, RtlUserThreadStart + 29 byte(s)
+ 
+[error][     487]    : Attempt to access invalid address.
+
