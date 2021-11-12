@@ -1,0 +1,16 @@
+Kill Strelok, talk to Astrologer
+Talk to Doc - Rookie Village
+Take medicine
+Talk to Miner
+Return container = (drop weapons) 2 lefts, 2 rights, straight down the incline and past the campfire, left at the black sheer whatever, right at the campfire, down the ladder, sprint-jump over fire, pick up container and sprint back to ladder, follow same path back until the great room where you have to go to the far-right corner. Take Miner's medicine to get back to Cordon.
+Talk to Sid, free Nimble. On the way, help Tolik and search the soldier to start the Find the military PDA task.
+----
+Fima - 10 scientific medkits, 10 bandages, 2 bars of soap, Soul (step 9)
+Prapor - five pseudodog tails
+Talk to Guide - Cordon (bring Groza)
+Kruglov - Return missing decoder from x16
+Voronin - camo exo ATP (see Adrenaline for passage)
+Freeman - case from James
+Akim - Bring old documents to Akim (Garbage), sw blocks sprint-jump to cement block with large pipe coming out of the top. Remove manhole cover and climb down ladder. Return to Akim to get the second part of the task in the Agroprom Underground, Bring old documents to Akim.
+Barman - Case from Cordon blockpost
+Adrenaline - disk ATP
