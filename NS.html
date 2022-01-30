@@ -14,10 +14,46 @@ h3 {font-style: italic; margin-left: 20px;}
 p.indent {margin-left: 20px;}
 h4 {margin-left: 30px;}
 p.indent2 {margin-left: 30px;}
+<!--===========accordion===========-->
+details {
+  user-select: none;
+}
+
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+  background-color: #6d7973;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: auto;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
 </style>
 <title>Narodnaya Solyanka</title>
 </head>
-
+<!--<details>
+<summary><span class="icon">&or;</span></summary>
+</details>-->
 <body>
 <div class="content">
 <h1>Narodnaya Solyanka</h1>
@@ -30,52 +66,87 @@ p.indent2 {margin-left: 30px;}
 
 <p>This walkthrough is based on Narodnaya Solyanka Release 2018.</p>
 
-<h3>Tips</h3>
+<details>
+<summary>Tips<span class="icon">&or;</span></summary>
 <ul>
-	<li>Many items, such as artifact, cigarettes, and mutant parts, are needed to complete some tasks. It's recommended to only sell ammo and, if you have more than one, weapons and suits.</li>
-	<li>The Bar/Rostok is a central location in the game and a great place to store extra supplies.</li>
+	<li>Many items, such as artifact, cigarettes, and mutant parts, are needed to complete some tasks. It's recommended to only sell ammo and, if you have more than one, weapons and suits. See <a href="#keepers">Items to Keep</a>.</li>
+	<li>The Bar/Rostok is a central location in the first part of the game and a great place to store extra supplies. Once you get to Pripyat, consider moving your cache to Radar.</li>
 	<li>Missions from various NPCs often involve the same location and I've done my best to gang them up together.</li>
-	<li>Vodka makes you hungry and thristy, so only use it for radiation when absolutely necessary. This, too, is a trading commodity, so it's best to save it.</li>
-	<li>Most food makes you thristy, with the exception of Tourist's Delight. It's best to wait until you get thristy to make the most of your water supply.</li>
+	<li>Vodka makes you hungry and thirsty, so only use it for radiation when absolutely necessary.</li>
+	<li>Most food makes you thirsty, with the exception of Tourist's Delight and mushrooms. It's best to wait and eat when the thirsty icon shows (or the hunger icon turns red) to make the most of your water supply.</li>
 	<li>Beer helps thrist, but not as well as water. And never drink before going into battle.</li>
 	<li>Artifacts have a limited lifespan while hanging on your belt. If you don't need it, put it in a backpack.</li>
 	<li>All corpses are eventually removed, so don't use them for stashes unless it's for a very short time.</li>
+	<li>Anomalies move when you leave a map and return. If you're cooking an artifact, you have to stay on the map until the cooking process completes.</li>
 	<!--<li></li>
-	<li></li>
 	<li></li>
 	<li></li>
 	<li></li>-->
 </ul>
+</details>
 
-<h2>Start</h2>
-<p>You start the game near the crash of the death truck in Cordon. There's a Loner nearby named Astrologer. Talk to him and he sends you to the Northern farm to collect a stash, and then on to the Rookie village. Your ammo is limited, so avoid mutants for now. Use the pistol to open the stash, and head south toward the railroad embankment. You don't need to bribe the guards, as Astrologer suggests, but go up to the fence (out of sight from the soldiers) and follow the fence east to the opening at the bridge. The anomaly doesn't harm you, just messes your vision up for a few seconds. Go west on the tracks and jump onto the shipping container between the box car and fence. This gets you over the fence so you can continue on the the Rookie village. Doc and Sidorovich are at the west end, just outside Sidorovich's bunker. Talk to Doc to get a dose of medicine that knocks you out. When you wake up, you're in the Cave.</p>
+<details>
+<summary>Items to Keep<span class="icon">&or;</span></summary>
 
-<h2>Cave</h2>
-<p>You spawn with a teleport and campfire one way and an intersecting passage the other. You can see on the minimap that there is a neutral NPC just around the corner. Go talk to him and he takes you to Miner, who gives you the <i>Bring the container to Miner</i> task. You have some nice weaponry, but you can do this without firing a shot. In fact, you may want to drop some weight.</p>
+<ul>
+	<li>Vodka - There are several characters who ask for it and it's only good as a last resort for radiation exposure.</li>
+	<li>Blind dog tails - Tolik ask for five.</li>
+	<li>TOZ-34 hunting rifle - At least two NPCs ask for this shotgun, Petruha and . There is one TOZ-34 in Kostya's first cache.</li>
+	<li>Groza - Guide asks for this.</li>
+	<li>Scientific Med Kits - Two NPCs each ask for 10, Fox and Fima.</li>
+	<li>Beer - Bes ask for five cans of , which is in a Lab X-18 refrigerater.</li>
+	<li>Pseudodog tails - Prapor asks for these.</li> 
+</ul>	
+</details>
+
+<details>
+<summary>Start<span class="icon">&or;</span></summary>
+<p>You start the game near the crash of the death truck in Cordon. There's a Loner nearby named Astrologer. Talk to him and he sends you to the Northern farm to collect a stash, and then on to the Rookie village. Your ammo is limited, so avoid mutants for now. Use the pistol to open the stash, and head south toward the railroad embankment. You don't need to bribe the military, as Astrologer suggests, but go up to the fence (out of sight from the soldiers) and follow the fence east to the opening at the bridge. The anomaly doesn't harm you, just messes your vision up for a few seconds. However, if you do bribe one of the privates, I've read that you can do some work for the major. But the only time I tried, he either wouldn't talk or was dead (so I grabbed his Fort-14 to complete another vanilla Sidorovich task).</p>
+
+<p>Go west on the tracks and jump onto the shipping container between the box car and fence. This gets you over the fence so you can continue on the the Rookie village. Doc and Sidorovich are at the west end, just outside Sidorovich's bunker. Talk to Doc to get a dose of medicine that knocks you out. When you wake up, you're in the Cave.</p>
+</details>
+<details>
+<summary id="cave">Cave<span class="icon">&or;</span></summary>
+<p>You spawn with a teleport and campfire one way and an intersecting passage the other. You can see on the minimap that there is a neutral NPC just around the corner. Go talk to him (note that the passage closes behind you) and he takes you to Miner, who gives you the <i>Bring the container to Miner</i> task. You have some nice weaponry, but you can do this without firing a shot. In fact, you may want to drop some weight and take the Porcupine/Urchin artifact off your belt. You don't need it and it reduces your energy.</p>
 <ol>
-	<li>Take the first two lefts.</li>
-	<li>Turn right into a large room and stay along the right wall. At this point, if you haven't started sprinting, do it now.</li>
+	<li>Take the first two lefts back the way you came in.</li>
+	<li>Turn right into a large room (again, the passage closes behind you) and stay along the right wall. At this point, if you haven't started sprinting, do it now.</li>
 	<li>Turn right again and follow the passage down an incline and past a campfire.</li>
-	<li>Continue down the passage and left at the hanging sheer-black vegetation.</li>
+	<li>Continue down the passage and left at the hanging sheer-black vegetation. Remember this spot as a transition to Garbage opens later in the game.</li>
 	<li>At the campfire, turn right to see an Electro anomaly. Find the ladder and climb down (even though it doesn't go to the top).</li>
 	<li>Sprint-jump over the right or left campfire and follow the passage to the container. Note that Miner told you not to kill the Fleshes, but they will attack.</li>
 	<li>Picking up the container spawns a Bloodsucker, but you can sprint back to the ladder before it gets to you. Don't stop until you're up the ladder again.</li>
-	<li>Follow your path back to the large room. The passage you used to enter coming from Miner has closed up and you must go to the far-right corner of the room.</li>
-	<li>Turn left and follow the passage back to Miner, who then gives you some more medicine, sending you back to the Cordon.</li>
+	<li>Follow your path back to the large room and go to the far-right corner.</li>
+	<li>Turn left and follow the passage back to Miner, who then gives you some more medicine (in your backpack), sending you back to the Cordon.</li>
 </ol>
+</details>
 
-<h2>Cordon</h2
-<p>Talk to Sidorovich and get the <i>Get the information from the scout</i> task of the vanilla SoC. On the way, be sure to help Tolik and get the <i>Find five dog tails</i> task from him. Also, search the soldier inside the trailer to start the <i>Find the military PDA</i> task. Kostya is a new character that spawns in the Rookie village once you save Nimble and turn over the flash drive to Sidorovich. He stands in the fence opening on the south side of the road at the west end. Talk to him to get the <i>Find the cache in the Cordon</i> task. Next, talk to Wolf and get a Jellyfish artifact, which you can use if you got the <i>Find the Jellyfish artifact</i> task from Nimble. Note that Nimble's tasks are optional. There are other optional tasks you can easily complete to help build your inventory:</p>
+<details>
+<summary>Work for Sidorovich<span class="icon">&or;</span></summary>
+<p>You wake up in one of the Rookie Village root cellars. Feel free to snatch the Playboy for an easy 169 RUs. Sidorovich is now in his bunker. Go talk to him and get the <i>Get the information from the scout</i> task of the vanilla SoC. On the way, be sure to help Tolik and get the <i>Find five dog tails</i> task from him. Also, search the soldier inside the trailer to start the <i>Find the military PDA</i> task. <a href="#Kostya">Kostya</a> is a new character that spawns in the Rookie village once you save Nimble and turn over the flash drive to Sidorovich. He stands in the fence opening on the south side of the road at the west end. Talk to him to get the <i>Find the cache in the Cordon</i> task. Next, talk to Wolf and get a Jellyfish artifact, which you can use if you got the <i>Find the Jellyfish artifact</i> task from Nimble. Note that Nimble's tasks are optional. There are other optional tasks you can easily complete to help build your inventory:</p>
 <ul>
 	<li>Ask Wolf what you can do to help and he gives you the <i>Bring the document to Wolf</i> task. The reward is an AKS-74U. This document is behind a mattress in the shipping container as you make your way through the tunnel with the moving Electro anomaly.</li>
-	<li>Accept the <i>Find the Night Star artifact</i> task from Sidorovich, and sprint to get the artifact before another stalker beats you to it. The easiest way to find the artifact is to go through the tunnel under the road near where you found the injured Tolik. Continue southeast in a stright line and you should be able to see it not far from the tunnel. The reward is an eight-artifact container to store radioactive artifacts.</li>
+	<li>Accept the <i>Find the Night Star artifact</i> task from Sidorovich, and sprint to get the artifact before another stalker beats you to it. The easiest way to find the artifact is to go through the tunnel under the road near where you found the injured Tolik. Continue southeast in a stright line and you should be able to see it not far from the tunnel in the valley south of where you first met Petruha. If it's not there, keep checking the area as you move around the Cordon. Night Stars are fairly common and you're sure to find one eventually. The reward is an eight-artifact container to store radioactive artifacts.</li>
 	<li>Two tasks from the vanilla version are also available from Sidorovich: <i>Distroy the bandits in the Agroprom underground</i> and <i>Kill the bandit leader</i>. You have to do these two things anyway, so you might as well get something for it.</li>
+	<li><i>Find a jacket for Nimble</i> is a matter of opening the manhole cover (Shift+F) on the south side of the train hanger near the crane, climbing down to get the jacket out of a backpack (that can be used as a stash box), and taking it to him.</li>
 </ul>
+</details>
 
-<p>From the Rookie village, make your way to the bus stop and find the Goldfish artifact that you'll need for another task. This artifact gives off radiation, so put it in the container you got from Sidorovich. Next, search the Mill for more supplies. Here you'll find Doc and Astrologer, but they don't have anything to offer at the moment. Now get through the tunnel and go back up to the fence. Follow the fence east toward the bridge again and, this time, go along side the train engine until your vision clears up. Continue east to the far end of the engine to jump up on the handrail, then on top. Go back to the west end of the engine and carefully inch off the top to the southern handrail. You need to be able to look inside the cabin through a small window. Break the window and loot the backpack inside. This is the cache Kostya is looking for. You may see him making his way to the Garbage, but don't bother trying to give him the cache until you meet up with him at the Vehicle graveyard.</p>
+<details>
+<summary>Garbage<span class="icon">&or;</span></summary>
+<p>From the Rookie village, make your way to the bus stop and find the Goldfish artifact that you'll need for another task. This artifact gives off radiation, so put it in the container you got from Sidorovich. Next, search the Mill for more supplies. Here you'll find Doc and Astrologer, but they don't have anything to offer at the moment. There are two fuel cans that you can sell to other stalkers (traders won't buy them).</p>
+</details>
 
-<h2>Agroprom</h2>
-<p>Meet up with Fox and follow the vanilla storyline to Bes, Seriy, Mole, and Strelok's hideout. In Strelok's hideout, find the grid that you can pick up (Shift+F), move it out of the way, and follow the passage into the next room. Loot the backpack on the bed and search the small safe up on top of the large electrical box. Find your way out of the underground and head for the Garbage. At some point you get a message from Gray, a trader who likes to drop in from time to time. If you're like me, you have a backpack full of weapons to sell, so his arrival is always welcomed. Also, if you offered to help Mole find his PDA, now is a good time to fetch it.</p>
+<details>
+<summary>Strelok's Hideout<span class="icon">&or;</span></summary>
+<p>Meet up with Fox and follow the vanilla storyline to Bes, Seriy, Mole, and Strelok's hideout. In Strelok's hideout, find the grid that you can pick up (Shift+F), move it out of the way, and follow the passage into the next room. Loot the backpack on the bed and search the small safe up on top of the large electrical box. Find your way out of the underground and steal the case in the army base. I've tried to do this stealthfully, but it's easier just to sprint to the third floor. At some point you get a message from Gray, a trader who likes to drop in from time to time. If you're like me, you have a backpack full of weapons to sell, so his arrival is always welcomed. Also, if you offered to help Mole find his PDA, now is a good time to go into the train tunnel and fetch it.</p>
+</details>
+
+
+
+
+
+
 
 <h2>Bar/Rostok</h2>
 <p>Help the Duty outpost with the mutants and continue on to the Bar. Ignore the message from a wounded stalker for now. Be wary as you past the Duty checkpoint toward the portal to Rostok as there is an Avenger waiting to take you out. In Rostok, there is another Avenger lurking behind the small building on the right past the southern Duty checkpoint. In the Bar, talk to Baldy and get the <i>Find the treasure</i> task. This opens the portal to the Cave where you met Miner. There are several optional tasks available, too:</p>
@@ -136,21 +207,26 @@ p.indent2 {margin-left: 30px;}
 
 
 ----
-Fima - 10 scientific medkits, 10 bandages, 2 bars of soap, Soul
-Prapor - five pseudodog tails
-Talk to Guide - Cordon (bring Groza)
-Kruglov - Return missing decoder from x16
-Voronin - camo exo ATP (see Adrenaline for passage)
-Freeman - case from James
-Akim - <i>Bring old documents to Akim</i> in the Garbage.</p>
+<!--<details>
+<summary><span class="icon">&or;</span></summary>
+</details>-->
+<details id="Adrenaline">
+<summary>Adrenaline tasks<span class="icon">&or;</span></summary>
+<p><i>disk ATP</i></p>
+</details>
+<details id="Akim">
+<summary>Akim tasks<span class="icon">&or;</span></summary>
+<p>Akim arrives at the Cordon's Northern Checkpoint after you clear out the Bandits. He sometimes wonders south down the road, so you may have to go looking for him to complete a task.</p>
 <ol>
-	<li>Go to the Duty checkpoint at the north end of the Garbage.</li>
-	<li>Jump onto the stack of cement black at the southwest end, on the north side of the road.</li>
-	<li>Sprint-jump northeast to the cement block with a large pipe coming out of the top.</li>
-	<li>Stand next to, but not on, the manhole cover and Shift+F to lift it.</li>
-	<li>Move the cover to the side and climb down the ladder.</li>
-	<li>Turn left (south) to find the documents in the corner behind some pipes.</li>
-</ol>
+	<li><b>Bring old documents to Akim</b>
+		<ol>
+			<li>Go to the Duty checkpoint at the north end of the Garbage.</li>
+			<li>Jump onto the stack of cement black at the southwest end, on the north side of the road.</li>
+			<li>Sprint-jump northeast to the cement block with a large pipe coming out of the top.</li>
+			<li>Stand next to, but not on, the manhole cover and Shift+F to lift it.</li>
+			<li>Move the cover to the side and climb down the ladder.</li>
+			<li>Turn left (south) to find the documents in the corner behind some pipes.</li>
+		</ol>
 <p>Return to Akim to get the <i>Bring old documents to Akim, pt. 2</i> task in the Agroprom Underground.</p>
 <ol>
 	<li>In the underground, go down the circular steps and follow the path to Strelok's hideout, only take a left, right through the small room, and left again away from the hideout.</li>
@@ -158,10 +234,33 @@ Akim - <i>Bring old documents to Akim</i> in the Garbage.</p>
 	<li>Continue up the stairs to the cave-in.</li>
 	<li>Standing with the cave-in rubble in front of you, squat and look under the cement on the right to find the document.</li>
 </ol>
-
-
-Barman - Case from Cordon blockpost
-Adrenaline - disk ATP
+</details>
+<details id="Kostya">
+<summary>Kostya tasks<span class="icon">&or;</span></summary>
+<p>Kostya spawns in the Rookie village after you free Nimble from the Bandits, provided Petruha survives the attack.</p>
+<ol>
+	<li><b>Find the cache in the Cordon</b> - This cache can be in one of four places:
+		<ul>
+			<li>Rookie village > east house on north side of the road > brick oven's bottom opening.</li>
+			<li>Mill - In the northwest room on the ground floor is a metal bin with a chute going up to the second floor. Jump into the bin, low-crouch (Ctrl+Shift) and look into the opening to the chute.</li>
+			<li>In the train - Go through the tunnel with the moving Electro anomaly and go back up the hill to the fence. Follow the fence east toward the bridge again and go along side the train engine until your vision clears up (this anomaly doesn't hurt you or your gear). Continue east to the far end of the engine to jump up on the handrail, then on top. Go back to the west end of the engine and carefully inch off the top to the southern handrail. You need to be able to look inside the cabin through a small window. Break the window and loot the backpack inside.</li>
+			<li>Dump > Rusty cab > southwest corner.</li>
+		</ul></li>
+	<li><b>Find the Goldfish artifact</b> - Metal box at the bus stop (Cordon).</li>
+	<li><b>Find the cache in the Garbage</b> - This cache can be in one of three places:
+		<ul>
+			<li>Duty outpost</li>
+			<li>Roof of the hanger</li>
+			<li>Ruins of the Duty outpost</li>
+		</ul></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
+</details>
 </div>
 </body>
 </html>
